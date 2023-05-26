@@ -8,6 +8,7 @@ brew install curl
 brew tap homebrew/cask-fonts
 brew install --cask font-fira-mono-nerd-font
 brew install lsd
+brew install zig
 
 # install zap zsh and dependencies
 zsh <(curl -s https://raw.githubusercontent.com/zap-zsh/zap/master/install.zsh) --branch release-v1 --keep
