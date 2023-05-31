@@ -22,3 +22,16 @@ source ~/.zshrc
 nvm install node
 npm install -g yarn
 npm i -g nx
+
+# Neo vim
+curl -LO https://github.com/neovim/neovim/releases/download/stable/nvim-macos.tar.gz
+tar xzf nvim-macos.tar.gz
+./nvim-macos/bin/nvim
+npm install -g tree-sitter-cli
+brew install ripgrep
+brew install jesseduffield/lazygit/lazygit
+brew install -f gdu
+brew install bottom
+git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim
+nvim
+
